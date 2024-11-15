@@ -1,0 +1,191 @@
+The following is an audit of all licenses used in this code.  In most cases a
+full copy of the license is found in the file.  In other cases, a pointer to
+the license text is provided.
+
+The CDDL can be found in the file OPENSOLARIS.LICENSE.  All licenses used are
+compatible with these terms.
+
+svretool-nerf              
+┣━━━cmd                    BSD and BSD-like; CDDL 1.0; zlib
+┃   ┣━━━acct               CDDL 1.0
+┃   ┃   ┗━━━lib            CDDL 1.0
+┃   ┣━━━autopush           CDDL 1.0
+┃   ┃   ┗━━━i386           No code
+┃   ┣━━━awk                Lucent BSD-like
+┃   ┣━━━banner             NetBSD-like
+┃   ┣━━━basename           CDDL 1.0
+┃   ┣━━━bc                 CDDL 1.0
+┃   ┣━━━bdiff              CDDL 1.0
+┃   ┣━━━bfs                CDDL 1.0
+┃   ┣━━━bnu                CDDL 1.0; uuencode/uudecode BSD
+┃   ┣━━━cal                BSD
+┃   ┣━━━calendar           CDDL 1.0
+┃   ┣━━━cat                NetBSD-like
+┃   ┣━━━checkeq            CDDL 1.0
+┃   ┣━━━chmod              NetBSD-like (main code); BSD (remainder)
+┃   ┣━━━chown              zlib
+┃   ┣━━━chroot             NetBSD-like
+┃   ┣━━━clear              CDDL 1.0
+┃   ┣━━━cmd-inet           BSD
+┃   ┃   ┣━━━etc            No code
+┃   ┃   ┃   ┗━━━init.d     None
+┃   ┃   ┣━━━usr.bin        BSD
+┃   ┃   ┃   ┣━━━finger     BSD
+┃   ┃   ┃   ┣━━━rsh        BSD
+┃   ┃   ┃   ┣━━━talk       BSD
+┃   ┃   ┃   ┗━━━tftp       BSD
+┃   ┃   ┗━━━usr.sbin       BSD; in.tnamed CDDL 1.0
+┃   ┃       ┣━━━htable     BSD
+┃   ┃       ┗━━━in.talkd   BSD
+┃   ┣━━━cmp                CDDL 1.0
+┃   ┣━━━col                BSD; some fragments ISC
+┃   ┣━━━comm               CDDL 1.0
+┃   ┣━━━copy               zlib
+┃   ┣━━━cp                 zlib
+┃   ┣━━━crypt              CDDL 1.0
+┃   ┣━━━cut                CDDL 1.0
+┃   ┣━━━date               zlib
+┃   ┣━━━dc                 CDDL 1.0
+┃   ┣━━━dd                 NetBSD-like
+┃   ┣━━━diff3              CDDL 1.0
+┃   ┣━━━dircmp             CDDL 1.0
+┃   ┣━━━dirname            CDDL 1.0
+┃   ┣━━━du                 zlib
+┃   ┣━━━echo               NetBSD-like
+┃   ┣━━━env                zlib
+┃   ┣━━━exstr              CDDL 1.0
+┃   ┣━━━factor             NetBSD-like
+┃   ┣━━━false              PD
+┃   ┣━━━fdetach            NetBSD-like
+┃   ┣━━━find               zlib
+┃   ┣━━━fmtmsg             NetBSD-like
+┃   ┣━━━fold               BSD
+┃   ┣━━━getopt             CDDL 1.0
+┃   ┣━━━gettxt             CDDL 1.0
+┃   ┣━━━grep               NetBSD-like; BSD for regex library
+┃   ┣━━━groups             zlib
+┃   ┣━━━grpck              CDDL 1.0
+┃   ┣━━━head               BSD
+┃   ┣━━━id                 zlib
+┃   ┣━━━kill               PD
+┃   ┣━━━killall            NetBSD-like
+┃   ┣━━━last               BSD
+┃   ┣━━━line               zlib
+┃   ┣━━━link               NetBSD-like
+┃   ┣━━━logins             zlib
+┃   ┣━━━logname            zlib
+┃   ┣━━━ls                 zlib
+┃   ┣━━━makekey            NetBSD-like
+┃   ┣━━━mesg               zlib
+┃   ┣━━━mkdir              zlib
+┃   ┣━━━mkfifo             zlib
+┃   ┣━━━mkmsgs             CDDL 1.0
+┃   ┣━━━mknod              zlib
+┃   ┣━━━mvdir              CDDL 1.0
+┃   ┣━━━newform            CDDL 1.0
+┃   ┣━━━news               NetBSD-like
+┃   ┣━━━nice               zlib
+┃   ┣━━━nl                 CDDL 1.0
+┃   ┣━━━nohup              zlib
+┃   ┣━━━oawk               BSD
+┃   ┣━━━pack               CDDL 1.0
+┃   ┣━━━paste              CDDL 1.0
+┃   ┣━━━pax                BSD-like
+┃   ┣━━━pr                 BSD
+┃   ┣━━━printf             NetBSD-like
+┃   ┣━━━priocntl           zlib
+┃   ┣━━━pt_chmod           CDDL 1.0
+┃   ┣━━━pwck               CDDL 1.0
+┃   ┣━━━pwconv             CDDL 1.0
+┃   ┣━━━pwd                zlib
+┃   ┣━━━random             NetBSD-like
+┃   ┣━━━regcmp             CDDL 1.0
+┃   ┣━━━rm                 NetBSD-like
+┃   ┣━━━rmdir              zlib
+┃   ┣━━━saf                CDDL 1.0
+┃   ┣━━━sccs               CDDL 1.0
+┃   ┃   ┣━━━cmd            CDDL 1.0
+┃   ┃   ┣━━━hdr            CDDL 1.0
+┃   ┃   ┣━━━help.d         CDDL 1.0
+┃   ┃   ┗━━━lib            CDDL 1.0
+┃   ┃       ┣━━━cassi      CDDL 1.0
+┃   ┃       ┣━━━comobj     CDDL 1.0
+┃   ┃       ┗━━━mpwlib     CDDL 1.0
+┃   ┣━━━sdiff              CDDL 1.0
+┃   ┣━━━sed                BSD-like
+┃   ┣━━━setpgrp            zlib
+┃   ┣━━━sh                 CDDL 1.0; zlib for gmatch; NetBSD-like for strsig
+┃   ┣━━━sleep              zlib
+┃   ┣━━━spell              CDDL 1.0
+┃   ┣━━━spline             CDDL 1.0
+┃   ┣━━━split              CDDL 1.0
+┃   ┣━━━srchtxt            CDDL 1.0
+┃   ┣━━━streams            CDDL 1.0
+┃   ┃   ┣━━━log            CDDL 1.0
+┃   ┃   ┗━━━strcmd         CDDL 1.0
+┃   ┣━━━sum                CDDL 1.0
+┃   ┣━━━sync               zlib
+┃   ┣━━━tabs               CDDL 1.0
+┃   ┣━━━tail               BSD
+┃   ┣━━━tee                CDDL 1.0
+┃   ┣━━━test               PD
+┃   ┣━━━time               zlib
+┃   ┣━━━touch              zlib
+┃   ┣━━━true               PD
+┃   ┣━━━tty                zlib
+┃   ┣━━━uname              NetBSD-like
+┃   ┣━━━uniq               BSD
+┃   ┣━━━units              CDDL 1.0
+┃   ┣━━━unlink             NetBSD-like
+┃   ┣━━━unpack             CDDL 1.0
+┃   ┣━━━users              zlib
+┃   ┣━━━valtools           CDDL 1.0
+┃   ┣━━━wc                 NetBSD-like
+┃   ┣━━━write              CDDL 1.0
+┃   ┣━━━yes                NetBSD-like
+┃   ┣━━━zdump              PD
+┃   ┗━━━zic                BSD
+┣━━━lib                    CDDL 1.0
+┃   ┗━━━libadm             CDDL 1.0
+┗━━━ucbcmd                 BSD and BSD-alike; CDDL 1.0
+    ┣━━━arch               PD
+    ┣━━━basename           BSD
+    ┣━━━biff               BSD
+    ┣━━━checkeq            BSD
+    ┣━━━checknr            BSD
+    ┣━━━chown              CDDL 1.0
+    ┣━━━deroff             BSD
+    ┣━━━diffmk             CDDL 1.0
+    ┣━━━du                 CDDL 1.0
+    ┣━━━echo               BSD
+    ┣━━━expand             BSD
+    ┣━━━fsirand            CDDL 1.0
+    ┣━━━groups             BSD
+    ┣━━━grpck              CDDL 1.0
+    ┣━━━halt               BSD
+    ┣━━━hostid             NetBSD-like
+    ┣━━━install            CDDL 1.0
+    ┣━━━ln                 CDDL 1.0
+    ┣━━━logger             BSD
+    ┣━━━look               CDDL 1.0
+    ┣━━━ls                 CDDL 1.0
+    ┣━━━mach               PD
+    ┣━━━pagesize           BSD
+    ┣━━━printenv           BSD
+    ┣━━━refer              BSD
+    ┃   ┗━━━papers         No code
+    ┣━━━renice             NetBSD-like
+    ┣━━━soelim             BSD
+    ┣━━━stty               CDDL 1.0
+    ┣━━━sum                BSD
+    ┣━━━tbl                BSD
+    ┣━━━tcopy              BSD
+    ┣━━━test               CDDL 1.0
+    ┣━━━tr                 BSD
+    ┣━━━tset               CDDL 1.0
+    ┣━━━ul                 BSD
+    ┣━━━unifdef            BSD
+    ┣━━━users              BSD
+    ┣━━━which              BSD
+    ┣━━━whoami             BSD
+    ┗━━━xstr               BSD
